@@ -25,10 +25,10 @@ public class MainController {
 	private CursoRepository repository;
 
    	@GetMapping(path="/")
-	public @ResponseBody String home () {return "feanaya - Ernesto Anaya Ruiz";}
+	public @ResponseBody String home () {return "Ray Vargas Ore";}
 
    	@GetMapping(path="/codigo")
-	public @ResponseBody String codigo () {return "feanaya";}
+	public @ResponseBody String codigo () {return "rxg";}
 
    	@GetMapping(path="/nombre-completo")
 	public @ResponseBody String nombre () {return "Ernesto Anaya Ruiz";}
